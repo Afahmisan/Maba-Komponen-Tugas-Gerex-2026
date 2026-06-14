@@ -1,5 +1,7 @@
 # Penugasan Frontend Gerex - Kartu Profil Maba
-
+<div align="center">
+    <img src="tampilan.jpg" alt="Preview Kartu Profil Maba" width="300">
+</div>
 ## Deskripsi
 Repositori ini berisi implementasi komponen "Kartu Profil Maba" untuk memenuhi Penugasan A (Frontend) pendaftaran Gerex. Komponen ini menampilkan Foto, Nama, NRP, dan Gugus.
 
