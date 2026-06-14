@@ -10,8 +10,8 @@ Dalam mengimplementasikan Kartu Profil Maba ini, saya memilih menggunakan **HTML
 
 Beberapa poin teknis dalam pendekatan saya:
 1. **Tata Letak (Layouting):** Menggunakan **Flexbox** pada `body` untuk memusatkan kartu profil tepat di tengah layar (*viewport*).
-2. **Proporsi Data:** Menggunakan **CSS Grid** pada bagian detail informasi (NRP & Gugus) agar mendapatkan lebar yang presisi dan sejajar.
-3. **Responsivitas (Mobile-Friendly):** Menerapkan *Media Queries* `@media (max-width: 480px)`. Ketika diakses melalui perangkat *mobile*, layout grid NRP dan Gugus yang awalnya menyamping (2 kolom) akan otomatis berubah menjadi bersusun ke bawah (1 kolom) agar tampilan tetap rapi dan tidak saling bertumpuk.
+2. **Proporsi:** Menggunakan **CSS Grid** pada bagian detail informasi (NRP & Gugus) agar mendapatkan lebar yang presisi dan sejajar.
+3. **Responsivitas :** Menerapkan *Media Queries* `@media (max-width: 480px)`. Ketika diakses melalui perangkat *mobile*, layout grid NRP dan Gugus yang awalnya menyamping (2 kolom) akan otomatis berubah menjadi bersusun ke bawah (1 kolom) agar tampilan tetap rapi dan tidak saling bertumpuk.
 4. **Desain Visual:** Menggunakan efek bayangan (*box-shadow*), transisi *hover* (*smooth transition*), serta trik margin negatif untuk membuat posisi avatar seolah menembus batas *banner*.
 
 ## Cara Menjalankan
